@@ -1,0 +1,77 @@
+.notification-bar {
+  background-color: black;
+  color: white;
+  display: inline;
+  align-items: center;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.notification-text {
+  padding: 3px;
+  font-weight: 200;
+}
+
+.notification-text span {
+  margin-left: 8px;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.language-select {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.language-select option {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.main-header {
+  height: 70px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  font-family: Poppins;
+}
+
+.main-header p {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.main-header ul {
+  list-style-type: none;
+  display: flex;
+  padding-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-header ul li {
+  margin: 20px;
+  padding: 20px;
+}
+
+.main-header input {
+  background-color: rgb(247, 244, 244);
+  border: none;
+  padding: 12px;
+  font-size: 12px;
+  width: 200px;
+  border-radius: 5px;
+}
+.main-header input::selection {
+  border: none;
+}
