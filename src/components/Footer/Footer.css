@@ -5,6 +5,9 @@
   height: 240px;
   padding: 20px;
   font-family: Poppins;
+  position: relative;
+  bottom: 0px;
+
  
   
 }

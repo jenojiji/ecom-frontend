@@ -1,95 +1,81 @@
 .login-section {
-  width: 1305px;
-  height: 600px;
-  margin-top: 60px;
-  margin-bottom: 80px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
+    width: 1305px;
+    height: 600px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    background-color: rgb(203, 228, 232);
+    position: relative;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .left-section img {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .right-section {
+    width: 350px;
+    height: 600px;
+    position: relative;
+  }
+  
+  .section-elements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .title {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.2;
+  }
+  
+  .subtitle {
+    font-family: Poppins;
+    font-size: 12px;
+  }
+  
+  .section-elements input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    margin-bottom: 15px;
+  }
+  .section-elements input::selection {
+    border: none;
+  }
+  
+  .login-button {
+    background-color: #db4444;
+    color: #fafafa;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  
+  .text-forget-password {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Poppins;
+  }
+  
 
-.left-section {
-  background-color: rgb(203, 228, 232);
-  position: relative;
-  width: 800px;
-  height: 600px;
-}
-
-.left-section img {
-  width: 700px;
-  height: 500px;
-  position: absolute;
-  bottom: 0px;
-}
-
-.right-section {
-  width: 350px;
-  height: 600px;
-  position: relative;
-}
-
-.section-elements {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-}
-
-.title {
-  font-family: Poppins;
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: 1.2;
-}
-
-.subtitle {
-  font-family: Poppins;
-  font-size: 12px;
-}
-
-.section-elements input {
-  border: none;
-  border-bottom: 1px solid gray;
-  padding: 10px;
-  width: 100%;
-  color: black;
-  margin-bottom: 15px;
-}
-.section-elements input::selection {
-  border: none;
-}
-
-.create-button {
-  background-color: #db4444;
-  color: #fafafa;
-  padding: 8px;
-  width: 100%;
-  border: none;
-  border-radius: 3px;
-  font-size: 15px;
-  margin-bottom: 15px;
-  margin-top: 25px;
-}
-
-.signup-google-button {
-  background-color: #fafafa;
-  color: black;
-  padding: 8px;
-  width: 100%;
-  border: 1px solid gray;
-  border-radius: 3px;
-  font-size: 15px;
-}
-
-.text-toLogin {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 13px;
-  font-family: Poppins;
-}
-
-.text-toLogin span {
-  text-decoration: underline;
-  font-weight: 500;
-  margin-left: 5px;
-  cursor: pointer;
-}
+  
