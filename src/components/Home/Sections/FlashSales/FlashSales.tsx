@@ -2,7 +2,7 @@ import ProductCard from "../../utils/ProductCard";
 import "./FlashSales.css";
 function FlashSales() {
   return (
-    <>
+    <><div className="flash-sales-container">
       <div className="flash-sales-section">
         <div className="upper-section">
           <p className="title-one">Today's</p>
@@ -19,6 +19,7 @@ function FlashSales() {
         <div className="view-more-button">
           <button>View All Products</button>
         </div>
+      </div>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ function Footer() {
             <li className="foooter-subtitle">Subscribe</li>
             <li>Get 10% of your first order</li>
             <li>
-              <input type="email" name="email" className="email-input" />
+              <input type="email" name="email" className="email-input" placeholder="Enter your email"/>
             </li>
           </ul>
         </div>

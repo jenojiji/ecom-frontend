@@ -1,23 +1,23 @@
-.flash-sales-container {
+.best-selling-container {
   height: 550px;
   width: 100%;
 }
 
-.flash-sales-section {
+.best-selling-section {
   position: relative;
   margin-left: 70px;
   top: 10px;
 }
-.flash-sales-section .product-cards {
+.best-selling-section .product-cards {
   position: relative;
   display: flex;
   border: none;
 }
-.flash-sales-section .upper-section {
+.best-selling-section .upper-section {
   margin: 20px;
 }
 
-.flash-sales-section .upper-section .title-one {
+.best-selling-section .upper-section .title-one {
   margin-top: 15px;
   color: #db4444;
   border-left: 10px solid #db4444;
@@ -27,14 +27,14 @@
   font-family: Poppins;
   font-weight: 400;
 }
-.flash-sales-section .upper-section .title-two {
+.best-selling-section .upper-section .title-two {
   font-size: 20px;
   font-family: Poppins;
   font-weight: 600;
   letter-spacing: 0.8rcap;
 }
 
-.flash-sales-section .view-more-button button {
+.best-selling-section .view-more-button button {
   width: 180px;
   height: 45px;
   border: none;

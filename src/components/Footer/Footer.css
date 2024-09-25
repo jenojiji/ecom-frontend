@@ -7,32 +7,33 @@
   font-family: Poppins;
   position: relative;
   bottom: 0px;
-
- 
-  
 }
 
-.footer-row{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer ul{
-    list-style-type: none;
-    font-weight: 200;
-    font-size: 14px;
-    padding: 12px;
-    margin-left: 20px;
-    
+.footer ul {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 12px;
+  margin-left: 20px;
 }
-.footer ul  li{
-    padding: 8px;
+.footer ul li {
+  padding: 8px;
 }
 
-.footer-name{
-    
-    
-    color: white;
+.footer .row .col ul li input {
+  border: 2px solid white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.footer-name {
+  color: white;
 }

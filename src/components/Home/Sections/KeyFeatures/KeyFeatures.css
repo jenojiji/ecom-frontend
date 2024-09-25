@@ -1,0 +1,48 @@
+.key-features-section {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.key-features-section .key-features-row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content:  center;
+  margin-left: 190px;
+}
+
+.key-features-section .key-features-row .feature {
+  margin-right: 180px;
+  font-family: Poppins;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px
+}
+
+.key-features-section .key-features-row .feature .icon {
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  border: 7px solid rgb(198, 196, 196);
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.key-features-section .key-features-row .feature .feature-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.key-features-section .key-features-row .feature .description {
+  font-size: 13px;
+  font-weight: 400;
+}
