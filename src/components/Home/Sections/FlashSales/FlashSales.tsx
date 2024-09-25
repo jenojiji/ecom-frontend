@@ -13,6 +13,8 @@ function FlashSales() {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+          <ProductCard />
+      
         </div>
         <div className="view-more-button">
           <button>View All Products</button>
