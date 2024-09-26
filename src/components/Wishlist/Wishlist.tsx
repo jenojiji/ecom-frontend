@@ -1,14 +1,13 @@
+import ProductCard from "../Home/utils/ProductCard";
+import "./Wishlist.css";
 
-import ProductCard from "../../utils/ProductCard";
-import "./BestSelling.css";
-function BestSelling() {
+function Wishlist() {
   return (
     <>
       <div className="best-selling-container">
         <div className="best-selling-section">
           <div className="upper-section">
-            <p className="title-one">This Month</p>
-            <p className="title-two">Best Selling Products</p>
+            <p className="title-two">Wishlist(4)</p>
           </div>
           <div className="product-cards">
             <ProductCard />
@@ -17,14 +16,14 @@ function BestSelling() {
             <ProductCard />
             <ProductCard />
           </div>
-          <div className="view-more-button">
-            <button>View All Products</button>
+          <div className="buttons">
+            <button>View All Items </button>
+            <button>Move All to Cart </button>
           </div>
-          
         </div>
       </div>
     </>
   );
 }
 
-export default BestSelling;
+export default Wishlist;

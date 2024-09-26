@@ -63,7 +63,10 @@
   margin: 20px;
   padding: 20px;
 }
-
+.main-header ul li .header-button{
+  color: black;
+  text-decoration: none;
+}
 .main-header input {
   background-color: rgb(247, 244, 244);
   border: none;
@@ -71,6 +74,18 @@
   font-size: 12px;
   width: 200px;
   border-radius: 5px;
+}
+.main-header .header-icons{
+  width: 150px;
+  
+}
+.main-header .header-icons .icon{
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+  
 }
 .main-header input::selection {
   border: none;

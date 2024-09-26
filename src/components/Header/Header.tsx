@@ -1,4 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
+import {
+  HeartOutlined,
+  ShoppingCartOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
 function Header() {
   return (
     <header className="container-fluid">
@@ -18,13 +24,36 @@ function Header() {
         <p>Exclusive</p>
 
         <ul>
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About</li>
-          <li>Signup</li>
+          <li>
+            <Link to={"/"} className="header-button">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to={"/about"} className="header-button">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to={"/about"} className="header-button">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to={"/register"} className="header-button">
+              Signup
+            </Link>
+          </li>
         </ul>
 
         <input type="text" placeholder="What are you looking for?" />
+        <div className="header-icons">
+          <Link to={"/wishlist"} className="header-button">
+            <HeartOutlined className="icon" />
+          </Link>
+          <ShoppingCartOutlined className="icon" />
+          <UserOutlined className="icon" />
+        </div>
       </div>
     </header>
   );

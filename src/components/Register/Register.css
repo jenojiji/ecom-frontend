@@ -92,4 +92,9 @@
   font-weight: 500;
   margin-left: 5px;
   cursor: pointer;
+  
 }
+
+.text-toLogin .tologin-button{
+  color: black;
+} 

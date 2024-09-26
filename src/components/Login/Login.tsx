@@ -1,5 +1,6 @@
 import "./Login.css";
 import loginPageImage from "../../assets/login-image.png";
+
 function Login() {
   return (
     <>
@@ -17,10 +18,10 @@ function Login() {
               className="input-password"
               placeholder="Password"
             />
-            <button className="login-button">Log In</button>
-            <p className="text-forget-password">
-              Forget Password?
-            </p>
+            <button className="login-button">
+            Log In
+            </button>
+            <p className="text-forget-password">Forget Password?</p>
           </div>
         </div>
       </div>

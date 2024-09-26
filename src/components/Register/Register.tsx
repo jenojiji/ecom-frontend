@@ -1,5 +1,6 @@
 import "./Register.css";
 import loginPageImage from "../../assets/login-image.png";
+import { Link } from "react-router-dom";
 function Register() {
   return (
     <>
@@ -23,7 +24,10 @@ function Register() {
               Sign up with Google
             </button>
             <p className="text-toLogin">
-              Already have account? <span>Log in</span>
+              Already have account?{" "}
+              <span>
+                <Link to={"/login"} className="tologin-button">Log In</Link>
+              </span>
             </p>
           </div>
         </div>
