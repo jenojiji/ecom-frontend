@@ -26,7 +26,7 @@ Getting Started
   -To get started with the project, follow the instructions below:
 
 Clone the repository:
-  -git clone https://github.com/your-username/ecom-frontend.git
+  -git clone https://github.com/jenojiji/ecom-frontend.git
 
 Navigate to the project directory:
   -cd ecom-frontend
